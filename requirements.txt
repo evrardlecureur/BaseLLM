@@ -1,0 +1,5 @@
+streamlit
+torch
+tokenizers
+transformers
+numpy
