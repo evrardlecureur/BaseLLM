@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import torch
 import torch.nn as nn
@@ -596,6 +596,7 @@ with tab3:
             st.error(f"❌ {e}")
     else:
         st.warning("Fichier 'best_model_finetuned.pth' non trouvé. Placez-le dans le dossier.")
+
 
 
 =======
@@ -1197,5 +1198,3 @@ with tab3:
     else:
         st.warning("Fichier 'best_model_finetuned.pth' non trouvé. Placez-le dans le dossier.")
 
-
->>>>>>> 3c63b51 (ajout des .pth)
