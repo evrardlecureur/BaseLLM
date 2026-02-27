@@ -6,7 +6,6 @@ from torch.nn import functional as F
 from tokenizers import ByteLevelBPETokenizer
 import math
 import os
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # ============================================================
 # CONFIG PAGE
@@ -596,5 +595,6 @@ with tab3:
             st.error(f"❌ {e}")
     else:
         st.warning("Fichier 'best_model_finetuned.pth' non trouvé. Placez-le dans le dossier.")
+
 
 
